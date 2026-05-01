@@ -1,0 +1,37 @@
+# Виртуальное окружение Python
+venv/
+env/
+.venv/
+
+# Кеш Python и скомпилированные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Системные файлы macOS
+.DS_Store
+
+# Системные файлы Windows
+Thumbs.db
+desktop.ini
+
+# Файлы блокнотов Jupyter (если есть)
+.ipynb_checkpoints/
+
+# Логи
+*.log
+
+# Но исключение: НЕ игнорируем конфигурационные файлы модели
+!config.json
+!tokenizer.json
+!tokenizer_config.json
+!vocab.json
+!merges.txt
+!special_tokens_map.json
